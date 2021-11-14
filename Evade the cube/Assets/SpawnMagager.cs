@@ -49,7 +49,7 @@ public class SpawnMagager : MonoBehaviour
             Instantiate(
                 catcherPrefab,
                 spawnPosition, // duoda random poziciją poziciją
-                catcherPrefab.transform.rotation); // duoda pradinę rotaciją
+                catcherPrefab.transform.rotation); // duoda pradinę rotaciją.
         }
     }
 }
